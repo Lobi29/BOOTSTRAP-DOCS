@@ -1,9 +1,18 @@
 # Bootstrap, frontend - styling the core html page with the help of CSS Framework (Bootstrap)
 
-<p>This Web is made for those who wants to spend a <strong>HORROR<strong> in a LightHouse</p>
+<p>This Web is made for those who has a desire to spend a <strong>HORROR<strong> night in a Haunted LightHouse</p>
 
+<br />
 
+<p align="center">
+    <a href="#">
+        <img src="./images/readme.png" width="500" alt="Haunted">
+    </a>
+</p>
 
+# link to video : https://youtu.be/AyfDIQ0YYB4
+
+<br />
 
 <h4>Tech stack Used</h4>
 <ul>
@@ -32,6 +41,7 @@
             <li>background colors</li>
         </ul>
     </li>
+    <br />
     <li>
         2. ./basic-concepts/concept2 :
         <ul>
@@ -42,6 +52,7 @@
             <li>Button Groups</li>
         </ul>
     </li>
+    <br />
     <li>
         3. ./basic-concepts/concept3 :
         <ul>
@@ -51,6 +62,7 @@
             <li>font-weight</li>
         </ul>
     </li>
+    <br />
     <li>
         4. ./basic-concepts/concept4 :
         <ul>
@@ -58,6 +70,7 @@
             <li>Containers</li>
         </ul>
     </li>
+    <br />
     <li>
         5. ./basic-concepts/concept5 :
         <ul>
@@ -67,3 +80,4 @@
         </ul>
     </li>
 </ul>
+
