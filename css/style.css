@@ -1,13 +1,192 @@
-
-/* .navbar {
-    position: absolute;
-    width: 100%;
-    display: block;
-    background: #000;
-    top: 0;
-} */
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@600&family=Tilt+Neon&display=swap');
 
 
-img {
-    min-height: 300px;
+*,
+*::before,
+*::after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    outline: none;
 }
+
+
+:root {
+
+
+    /* Background Color */
+    --bg-white:#fff;
+    --bg-dark: #404258;
+
+    /* colors */
+    --light-color: #eee;
+    --dark-color: #14274E;
+    --light-dark-color: #394867;
+    --smoth-dark-color: #6B728E;
+
+
+    /* Text Colors */
+    --primary-text: #061738;
+    --secondary-text: #9BA4B4;
+    --text-white: #fff;
+    --anchor-color: #007aff;
+
+
+
+
+    /* Font Family */
+    --primary-font: 'Caveat', cursive;
+    --secondary-font: 'Tilt Neon', cursive;
+}
+
+
+body,
+html {
+    font-size: 20px;
+    font-weight: 400;
+    font-family: var(--primary-font);
+    scroll-behavior: smooth;
+    line-height: 1.5;
+}
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+}
+
+
+h1 {
+    /* font-size: 9rem;
+    line-height: 1.4;
+    font-weight: 600;
+    color: var(--primary-text); */
+}
+
+
+h2 {
+    /* color: var(--primary-text);
+    font-size: 4.7rem;
+    font-weight: 600;
+    display: inline-block;
+    text-transform: capitalize;
+    line-height: 1.2;
+    margin-bottom: 2rem; */
+}
+
+
+h3 {
+    /* color: var(--primary-text);
+    font-size: 3.1rem;
+    line-height: 1.2;
+    font-weight: 700; */
+}
+
+
+h4 {
+    /* font-size: 2.5rem;
+    font-weight: 700;
+    line-height: 1;
+    color: var(--primary-text); */
+}
+
+
+h5 {
+    /* font-size: 1.8rem;
+    font-weight: 600;
+    line-height: 1;
+    color: var(--primary-text); */
+}
+
+
+p {
+    /* font-size: 1.6rem;
+    line-height: 1.6;
+    margin-top: 1rem;
+    color: var(--primary-text);
+    font-family: var(--secondary-font); */
+}
+
+
+embed,
+iframe,
+img,
+object {
+    max-width: 100%;
+}
+
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+::-webkit-scrollbar-track {
+    background:var(--white);
+}
+::-webkit-scrollbar-thumb {
+    background: var(--secondary-color);
+}  
+
+
+
+
+/* Navbar styling */
+.navbar {
+    background-color: var(--dark-color);
+    width: 100vw;
+    position: fixed;
+    z-index: 999;
+}
+
+.navbar-brand span {
+    color: var(--light-color);
+}
+
+.nav-item .nav-link {
+    color: var(--light-color);
+}
+
+.navbar-toggler {
+    color: var(--light-color);
+}
+
+
+/* intro section */
+#intro {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: var(--light-dark-color);
+}
+
+
+/* pricing plans */
+#pricing {
+    background: var(--light-color);
+    padding: 2rem 0;
+}
+
+
+/* topics at a glance */
+#topics {
+    background: var(--light-dark-color);
+    padding: 2rem 0;
+}
+
+
+/* review list */
+#reviews {
+    background: var(--light-color);
+    padding: 2rem 0;
+}
+
+
+/*  */
