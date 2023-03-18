@@ -1,51 +1,69 @@
-Making a basic web project with the help of bootstrap
+# Bootstrap, frontend - styling the core html page with the help of CSS Framework (Bootstrap)
+
+<p>This Web is made for those who wants to spend a <strong>HORROR<strong> in a LightHouse</p>
 
 
 
 
+<h4>Tech stack Used</h4>
+<ul>
+    <li>HTML</li>
+    <li>CSS</li>
+    <li>Bootstrap</li>
+    <li>JavaScript</li>
+</ul>
 
 
 
-Dealing with basic concepts of BOOTSTRAP
+# basic-concepts folder
 
-1. ./basic-concepts/concept1 :
+<p>Here, I include all the concepts that I learn, while working with Bootstrap</p>
 
-In this file, I have work with ->
-a. Heading tags
-b. Display Heading
-c. lead text & alignment
-d. text decoration and font weight
-e. text-Colours
-f. background Colours
+<h1>Dealing with basic concepts of BOOTSTRAP</h1>
 
-
-2. ./basic-concepts/concept2 :
-
-In this file, I have work with ->
-a. basic buttons
-b. anchor tags as buttons
-c. button sizes
-d. outline styles
-e. button groups
-
-
-3. ./basic-concepts/concept3 :
-
-In this file, I have work with ->
-a. margin and padding
-b. borders
-c. box-shadow
-d. font weight
-
-4. ./basic-concepts/concept4 :
-
-In this file, I have work with ->
-a. Containers
-
-
-5. ./basic-concepts/concept6 :
-
-In this file, I have work with ->
-a. basic grids
-b. Column widths
-c. responsive column widths
+<ul>
+    <li>
+        1. ./basic-concepts/concept1 :
+        <ul>
+            <li>Heading tags</li>
+            <li>lead text & alignment</li>
+            <li>text decoration and font weight</li>
+            <li>text-colors</li>
+            <li>background colors</li>
+        </ul>
+    </li>
+    <li>
+        2. ./basic-concepts/concept2 :
+        <ul>
+            <li>Basic Buttons</li>
+            <li>Anchor Tags as Buttons</li>
+            <li>Button Sizes</li>
+            <li>Outline Styles</li>
+            <li>Button Groups</li>
+        </ul>
+    </li>
+    <li>
+        3. ./basic-concepts/concept3 :
+        <ul>
+            <li>margin and padding</li>
+            <li>borders</li>
+            <li>box-shadow</li>
+            <li>font-weight</li>
+        </ul>
+    </li>
+    <li>
+        4. ./basic-concepts/concept4 :
+        <ul>
+            <li></li>
+            <li>Containers</li>
+        </ul>
+    </li>
+    <li>
+        5. ./basic-concepts/concept5 :
+        <ul>
+            <li>basic grids</li>
+            <li>column widths</li>
+            <li>responsive column widths</li>
+        </ul>
+    </li>
+</ul>
